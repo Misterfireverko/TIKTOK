@@ -1,4 +1,4 @@
-<script>
+<script src="script.js">
   alert('ГЛАВНАЯ')
 alert('ТИКТОК')
 name=prompt('ТВОЙ НИК В ТТ?')
@@ -29,6 +29,7 @@ if (password=='4321'){
 else{
     alert('Password is incorrect!')
     window.close()  
+  
 }
 
 password=prompt('Enter password')
